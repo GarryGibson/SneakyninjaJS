@@ -1,0 +1,74 @@
+<div class="blog-header">
+    <h1 class="blog-title">About</h1>
+    <p class="lead blog-description"></p>
+</div>
+
+
+
+<div class="row">
+
+    <div class="col-sm-8 blog-main">
+
+<div ng-controller="AboutController as ctrl" ng-init="getAboutData()">
+    {{aboutjson[0].node.Body}}
+
+</div>
+
+
+
+
+
+
+    </div><!-- /.blog-main -->
+
+    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+            <h4>Elsewhere</h4>
+            <p>
+                <a href="http://uk.linkedin.com/in/garrygibson">
+
+                    <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Garry Gibson's profile on LinkedIn">
+
+                </a>
+            </p>
+
+            <p>
+                <a href="https://twitter.com/GarryGibson" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @GarryGibson</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </p>
+
+            <p>
+                <a href="http://stackexchange.com/users/6833">
+                    <img src="http://stackexchange.com/users/flair/6833.png" width="208" height="58" alt="profile for Garry on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Garry on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+                </a>
+            </p>       </div>
+        <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+                <li><a href="#">March 2014</a></li>
+                <li><a href="#">February 2014</a></li>
+                <li><a href="#">January 2014</a></li>
+                <li><a href="#">December 2013</a></li>
+                <li><a href="#">November 2013</a></li>
+                <li><a href="#">October 2013</a></li>
+                <li><a href="#">September 2013</a></li>
+                <li><a href="#">August 2013</a></li>
+                <li><a href="#">July 2013</a></li>
+                <li><a href="#">June 2013</a></li>
+                <li><a href="#">May 2013</a></li>
+                <li><a href="#">April 2013</a></li>
+            </ol>
+        </div>
+
+    </div><!-- /.blog-sidebar -->
+
+</div><!-- /.row -->
+
+
+
+
+<!--
+        <p>
+            <a href="http://eu.playstation.com/psn/profile/artytech/"><img src="http://mypsn.eu.playstation.com/psn/profile/artytech.png" border="0" /></a>
+        </p>
+-->
