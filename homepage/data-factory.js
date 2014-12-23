@@ -9,7 +9,8 @@ myApp.factory('SneakyData',function SneakyData($http){
     return {
 
         searchSneaky: function searchSneaky(query, callback) {
-            $http.get('http://www.sneakyninja.net/api/blogentries')
+           // $http.get('http://www.sneakyninja.net/api/blogentries')
+            $http.get('http://localhost:9000/articles/')
                 .success(function (data) {
                     callback(null,data);
                 })
