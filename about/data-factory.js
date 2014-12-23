@@ -9,7 +9,7 @@ myApp.factory('AboutData',function AboutData($http){
     return {
 
         searchAbout: function searchAbout(query, callback) {
-            $http.get('http://www.sneakyninja.net/api/about')
+            $http.get('http://api-sneakyninja.rhcloud.com/article/144')
                 .success(function (data) {
                     callback(null,data);
                 })

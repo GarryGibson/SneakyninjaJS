@@ -11,7 +11,7 @@ myApp.controller('AboutController', ['$scope','LocalAboutData','AboutData', func
     $scope.getAboutData = function getAboutData(){
         AboutData.searchAbout($scope.query, function (error, data) {
             if (!error) {
-                $scope.aboutjson = data.nodes;
+                $scope.aboutjson = data;
                 //console.log(data.nodes);
             }
         });
