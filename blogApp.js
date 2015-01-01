@@ -1,4 +1,4 @@
-var myApp = angular.module('blogApp',['ngRoute'])
+var myApp = angular.module('blogApp',['ngRoute','ngSanitize'])
 	.config(function($routeProvider) {
 		$routeProvider.when('/', {
 

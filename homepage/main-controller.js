@@ -18,7 +18,10 @@ console.log(data);
             }
         });
 
+	
     }
+    
+    
 
 
 }]);

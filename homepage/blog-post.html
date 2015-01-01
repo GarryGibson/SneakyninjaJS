@@ -1,8 +1,8 @@
 <div class="blog-post">
             <h2 class="blog-post-title">{{node.title}}</h2>
             <p class="blog-post-meta">{{node['created']}}</p>
-			<p>
-            {{node.body_value}}
+			<p ng-bind-html="node.body_value">
+           <!-- {{node.body_value}} -->
 			</p>
 						
 			
